@@ -146,9 +146,8 @@ blockquote.blockquote {
 }
 
 .abous-us-info {
-    /* padding-left: 20% !important; */
+    padding-left: 15% !important;
     background-image: url(./images/about-us-bg-image.webp);
-
 }
 
 .about-line {
