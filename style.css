@@ -314,7 +314,7 @@ section#service {
 }
 
 .client-logo {
-    margin: 25px 5px;
+    margin: 0px 5px;
 }
 
 .clients-info.header-padding {
@@ -356,8 +356,17 @@ section#service {
     cursor: pointer;
 }
 
+.terms-footer a:hover {
+    color: gray !important;
+    cursor: pointer;
+}
+
 .working-stepper-padding {
     padding: 0px 5rem;
+}
+
+.font-sens {
+    font-family: 'Sen', sans-serif !important;
 }
 
 /* owl carousal */
@@ -549,6 +558,14 @@ section#service {
         padding: 0px 1rem !important;
     }
 
+    .Appoinment-detail-card .pt-5,
+    .contact-detail-card .pt-5 {
+        padding-top: 0.5rem !important;
+    }
+
+    .Appoinment-detail-card .py-3 {
+        padding: 0.5rem !important;
+    }
 
 }
 
@@ -579,6 +596,7 @@ section#service {
 
     .appoinment-detail-content {
         position: static;
+        padding: 1rem !important;
 
     }
 
@@ -649,5 +667,9 @@ section#service {
 
     .clients-info.header-padding {
         position: static;
+    }
+
+    .client-img {
+        padding: 75px;
     }
 }

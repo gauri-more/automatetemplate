@@ -94,7 +94,7 @@ $(document).ready(function () {
         autoHeight: true,
         autoplayTimeout: 4000,
         smartSpeed: 800,
-        nav: false,
+        nav: true,
         dots: false,
         responsive: {
             0: {
