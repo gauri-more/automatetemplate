@@ -29,7 +29,7 @@ $(document).ready(function () {
         }
     });
     jQuery("#carousel-review").owlCarousel({
-        autoplay:false,
+        autoplay:true,
         rewind: true,
         margin: 20,
         responsiveClass: true,
@@ -59,7 +59,7 @@ $(document).ready(function () {
         }
     });
     jQuery("#service-carousel").owlCarousel({
-        autoplay: false,
+        autoplay: true,
         rewind: true,
         margin: 20,
         responsiveClass: true,
@@ -87,7 +87,7 @@ $(document).ready(function () {
         }
     });
     jQuery("#team-carousel").owlCarousel({
-        autoplay: false,
+        autoplay: true,
         rewind: true,
         margin: 20,
         responsiveClass: true,
@@ -119,7 +119,7 @@ $(document).ready(function () {
         }
     });
     jQuery("#clients-carousel").owlCarousel({
-        autoplay: false,
+        autoplay:true,
         rewind: true,
         margin: 20,
         responsiveClass: true,
